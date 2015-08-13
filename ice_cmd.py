@@ -4,6 +4,7 @@ import os
 import getpass
 import sys
 
+
 def Main():
     print("ICE Automator Program v" + ICE.__version__ + " (by Simon Crouch, IM&T Mar2015). \nPress Ctrl+c to cancel at anytime.\n")
     inputFile = input("File path to csv file to process [ICE.csv]: ") or r'ICE.csv'
